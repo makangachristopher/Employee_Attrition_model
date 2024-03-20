@@ -10,3 +10,5 @@ def evaluate_model(model, X_test, y_test):
         accuracy = (predictions == y_test_tensor).sum().item() / len(y_test_tensor)
         print(f"Accuracy: {accuracy}")
         print(classification_report(y_test, predictions))
+
+        #Print everything
