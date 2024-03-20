@@ -16,7 +16,8 @@ numerical, categorical = preprocessor.separate_feature_into_numerical_and_catego
 numerical = preprocessor.remove_outliers(numerical)
 numerical_scaled = preprocessor.scale_numerical_features(numerical)
 X_ca = preprocessor.select_k_best_categorical_features(categorical, Y)
-X_all = preprocessor.join_all_features(numerical_scaled, X_ca)
+X_all = preprocessor.join_all_features(pd.DataFrame(numerical_scaled), X_ca)
+X_all.columns = X_all.columns.astype(str)
 X_s, Y_s = preprocessor.oversample_data(X_all, Y)
 X_train, x_test, y_train, y_test = preprocessor.split_data(X_s, Y_s)
 
@@ -28,7 +29,7 @@ model = FNN(input_size)
 train_model(model, X_train, y_train)
 
 # Save the trained model
-save_model(model, 'attrition_predictor_model.pth')
+save_model(model, 'model/trained_models/attrition_predictor_model.h5')
 
 # Model evaluation
 evaluate_model(model, x_test, y_test)

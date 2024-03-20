@@ -16,10 +16,21 @@ class Preprocessor:
         return X, Y
 
     def remove_features_with_zero_variance(self, X):
-        feature_val_count = pd.DataFrame(X.apply(lambda m: m.value_counts().count()))
-        feat_level_index = feature_val_count[feature_val_count['uni_level'] > 1].index
+        def count_unique_values(column):
+            return column.value_counts().count()
+
+        feature_val_count = pd.DataFrame(X.apply(count_unique_values))
+        feature_val_count.columns = ['uni_level']
+        if not feature_val_count.empty:  # Check if DataFrame is not empty
+            feat_level_index = feature_val_count[feature_val_count['uni_level'] > 1].index
+        else:
+            # Handle the case where no features have more than one unique value (e.g., print a message)
+            print("No features with variance greater than 1 found.")
+            feat_level_index = []  # Set an empty index if no features to keep
         X = X.loc[:, feat_level_index]
         return X
+
+
 
     def separate_feature_into_numerical_and_categorical(self, X):
         num = X.select_dtypes(include='number')
@@ -47,10 +58,11 @@ class Preprocessor:
         cols = selector.get_support(indices=True)
         X_ca = catag_dum.iloc[:, cols]
         return X_ca
-
-    def join_all_features(self, numerical, X_ca):
+    
+    def join_all_features(self, numerical: pd.DataFrame, X_ca: pd.DataFrame) -> pd.DataFrame:
         X_all = pd.concat([numerical, X_ca], axis=1, join='inner')
         return X_all
+
 
     def oversample_data(self, X_all, Y):
         ros = RandomOverSampler(sampling_strategy='minority', random_state=1)
@@ -78,18 +90,3 @@ class Preprocessor:
 
         return train_graph, test_graph
 
-# Example usage:
-# Initialize preprocessor
-# preprocessor = Preprocessor(df)
-
-# Call preprocessing methods
-# X, Y = preprocessor.define_target_and_independent_features()
-# X = preprocessor.remove_features_with_zero_variance(X)
-# numerical, categorical = preprocessor.separate_feature_into_numerical_and_categorical(X)
-# numerical = preprocessor.remove_outliers(numerical)
-# numerical_scaled = preprocessor.scale_numerical_features(numerical)
-# X_ca = preprocessor.select_k_best_categorical_features(categorical, Y)
-# X_all = preprocessor.join_all_features(numerical_scaled, X_ca)
-# X_s, Y_s = preprocessor.oversample_data(X_all, Y)
-# X_train, x_test, y_train, y_test = preprocessor.split_data(X_s, Y_s)
-# train_graph, test_graph = preprocessor.torch_geometric_data(X_train, x_test, y_train, y_test)
