@@ -6,3 +6,4 @@ imbalanced-learn
 mlflow
 numpy
 flask
+gunicorn
