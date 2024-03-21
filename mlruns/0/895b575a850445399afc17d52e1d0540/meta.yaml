@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/895b575a850445399afc17d52e1d0540/artifacts
+end_time: 1711046530764
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 895b575a850445399afc17d52e1d0540
+run_name: luminous-quail-939
+run_uuid: 895b575a850445399afc17d52e1d0540
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711046530360
+status: 3
+tags: []
+user_id: vscode

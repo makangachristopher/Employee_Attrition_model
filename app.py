@@ -11,8 +11,9 @@ app = Flask(__name__)
 def load_model():
     with mlflow.start_run() as run:
         # Load the model
-        model_uri = 'runs:/9a3ee2317e30495f9068c5788875b47b/model/trained_models/attrition_predictor_model.pth'  # Update with your MLflow run ID
-        model = mlflow.pytorch.load_model(model_uri)
+        logged_model = 'mlruns/0/9a3ee2317e30495f9068c5788875b47b/artifacts/model/trained_models/attrition_predictor_model.pth'
+        # Load model as a PyFuncModel.
+        model = mlflow.pyfunc.load_model(logged_model)
     return model
 
 # Preprocess data using the Preprocessor class
@@ -30,11 +31,40 @@ def preprocess_data(df):
 # Load the model
 model = load_model()
 
+
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
         # Get the JSON data from the request
-        data = request.json
+        data = {
+  "Age": 35,
+  "BusinessTravel": "Travel_Rarely",
+  "Department": "Research & Development",
+  "DistanceFromHome": 5,
+  "Education": 3,
+  "EducationField": "Life Sciences",
+  "EnvironmentSatisfaction": 4,
+  "Gender": "Male",
+  "JobInvolvement": 3,
+  "JobLevel": 2,
+  "JobRole": "Research Scientist",
+  "JobSatisfaction": 3,
+  "MaritalStatus": "Married",
+  "MonthlyIncome": 5500,
+  "NumCompaniesWorked": 2,
+  "OverTime": "No",
+  "PercentSalaryHike": 15,
+  "PerformanceRating": 3,
+  "RelationshipSatisfaction": 4,
+  "StockOptionLevel": 1,
+  "TotalWorkingYears": 10,
+  "TrainingTimesLastYear": 2,
+  "WorkLifeBalance": 3,
+  "YearsAtCompany": 7,
+  "YearsInCurrentRole": 5,
+  "YearsSinceLastPromotion": 2,
+  "YearsWithCurrManager": 3
+}
 
         # Preprocess the input data
         input_data = pd.DataFrame(data)
@@ -54,5 +84,10 @@ def predict():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+@app.route('/')
+def index():
+    
+    return 'Thank you for visiting students grade prediction model'
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5001, debug=True)

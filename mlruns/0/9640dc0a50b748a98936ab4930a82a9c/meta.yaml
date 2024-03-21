@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/9640dc0a50b748a98936ab4930a82a9c/artifacts
+end_time: 1711044990943
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9640dc0a50b748a98936ab4930a82a9c
+run_name: able-toad-921
+run_uuid: 9640dc0a50b748a98936ab4930a82a9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711044990932
+status: 3
+tags: []
+user_id: vscode

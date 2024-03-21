@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/9fed37572cd147618e6a130e0820dcb1/artifacts
+end_time: 1711046540710
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fed37572cd147618e6a130e0820dcb1
+run_name: flawless-panda-100
+run_uuid: 9fed37572cd147618e6a130e0820dcb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711046540261
+status: 3
+tags: []
+user_id: vscode

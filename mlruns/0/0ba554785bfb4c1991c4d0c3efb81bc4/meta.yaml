@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/0ba554785bfb4c1991c4d0c3efb81bc4/artifacts
+end_time: 1711045404685
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ba554785bfb4c1991c4d0c3efb81bc4
+run_name: bedecked-fawn-998
+run_uuid: 0ba554785bfb4c1991c4d0c3efb81bc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711045404353
+status: 3
+tags: []
+user_id: vscode

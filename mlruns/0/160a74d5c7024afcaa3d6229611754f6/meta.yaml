@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/160a74d5c7024afcaa3d6229611754f6/artifacts
+end_time: 1711037084493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 160a74d5c7024afcaa3d6229611754f6
+run_name: delightful-perch-510
+run_uuid: 160a74d5c7024afcaa3d6229611754f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711037084155
+status: 3
+tags: []
+user_id: vscode

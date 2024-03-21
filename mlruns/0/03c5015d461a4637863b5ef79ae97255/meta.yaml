@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/03c5015d461a4637863b5ef79ae97255/artifacts
+end_time: 1711045792831
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03c5015d461a4637863b5ef79ae97255
+run_name: wistful-crow-334
+run_uuid: 03c5015d461a4637863b5ef79ae97255
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711045792488
+status: 3
+tags: []
+user_id: vscode

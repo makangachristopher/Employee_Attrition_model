@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/784c4fcf40134ff58dc1938ccb3558db/artifacts
+end_time: 1711037270653
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 784c4fcf40134ff58dc1938ccb3558db
+run_name: gaudy-goat-460
+run_uuid: 784c4fcf40134ff58dc1938ccb3558db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711037270640
+status: 4
+tags: []
+user_id: vscode

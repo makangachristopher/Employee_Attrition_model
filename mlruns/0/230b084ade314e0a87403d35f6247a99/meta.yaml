@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/230b084ade314e0a87403d35f6247a99/artifacts
+end_time: 1711044598202
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 230b084ade314e0a87403d35f6247a99
+run_name: popular-lark-908
+run_uuid: 230b084ade314e0a87403d35f6247a99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711044597826
+status: 3
+tags: []
+user_id: vscode

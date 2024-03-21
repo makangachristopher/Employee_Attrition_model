@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/8d5ad0ebcce645309c981374fb579d68/artifacts
+end_time: 1711044283289
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d5ad0ebcce645309c981374fb579d68
+run_name: glamorous-sponge-337
+run_uuid: 8d5ad0ebcce645309c981374fb579d68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711044282934
+status: 3
+tags: []
+user_id: vscode

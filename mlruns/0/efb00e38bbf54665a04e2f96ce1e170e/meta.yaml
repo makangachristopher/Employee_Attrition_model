@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/efb00e38bbf54665a04e2f96ce1e170e/artifacts
+end_time: 1711044990908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: efb00e38bbf54665a04e2f96ce1e170e
+run_name: placid-horse-67
+run_uuid: efb00e38bbf54665a04e2f96ce1e170e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711044987420
+status: 3
+tags: []
+user_id: vscode

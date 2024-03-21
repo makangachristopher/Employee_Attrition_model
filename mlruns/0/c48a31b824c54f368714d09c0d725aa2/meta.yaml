@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/c48a31b824c54f368714d09c0d725aa2/artifacts
+end_time: 1711046546762
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c48a31b824c54f368714d09c0d725aa2
+run_name: carefree-grub-725
+run_uuid: c48a31b824c54f368714d09c0d725aa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711046546390
+status: 3
+tags: []
+user_id: vscode

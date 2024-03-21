@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/85e6a92c727c4264852cfda7d9935422/artifacts
+end_time: 1711046470618
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85e6a92c727c4264852cfda7d9935422
+run_name: legendary-fish-765
+run_uuid: 85e6a92c727c4264852cfda7d9935422
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711046470270
+status: 3
+tags: []
+user_id: vscode

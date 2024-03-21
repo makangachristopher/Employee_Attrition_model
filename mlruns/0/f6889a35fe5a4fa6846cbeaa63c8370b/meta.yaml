@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/f6889a35fe5a4fa6846cbeaa63c8370b/artifacts
+end_time: 1711043293518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6889a35fe5a4fa6846cbeaa63c8370b
+run_name: serious-skink-225
+run_uuid: f6889a35fe5a4fa6846cbeaa63c8370b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711043293169
+status: 3
+tags: []
+user_id: vscode

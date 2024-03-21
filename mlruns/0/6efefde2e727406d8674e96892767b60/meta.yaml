@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/6efefde2e727406d8674e96892767b60/artifacts
+end_time: 1711044645463
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6efefde2e727406d8674e96892767b60
+run_name: able-stag-314
+run_uuid: 6efefde2e727406d8674e96892767b60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711044645110
+status: 3
+tags: []
+user_id: vscode

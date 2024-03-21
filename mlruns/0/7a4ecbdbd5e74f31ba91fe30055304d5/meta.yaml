@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/7a4ecbdbd5e74f31ba91fe30055304d5/artifacts
+end_time: 1711037204499
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a4ecbdbd5e74f31ba91fe30055304d5
+run_name: resilient-kite-356
+run_uuid: 7a4ecbdbd5e74f31ba91fe30055304d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711037204486
+status: 4
+tags: []
+user_id: vscode

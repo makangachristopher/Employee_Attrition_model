@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/35c2d14cd2224d269dbd22b00e5d3ae0/artifacts
+end_time: 1711043290441
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 35c2d14cd2224d269dbd22b00e5d3ae0
+run_name: dashing-gnat-824
+run_uuid: 35c2d14cd2224d269dbd22b00e5d3ae0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711043289649
+status: 3
+tags: []
+user_id: vscode

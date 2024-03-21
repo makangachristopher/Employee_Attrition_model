@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/e7b6206c103f4dfa9fc1fb26ce5f70ce/artifacts
+end_time: 1711043384562
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e7b6206c103f4dfa9fc1fb26ce5f70ce
+run_name: spiffy-mare-623
+run_uuid: e7b6206c103f4dfa9fc1fb26ce5f70ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711043384179
+status: 3
+tags: []
+user_id: vscode

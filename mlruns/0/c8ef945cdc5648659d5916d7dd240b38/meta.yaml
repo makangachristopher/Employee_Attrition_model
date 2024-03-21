@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/c8ef945cdc5648659d5916d7dd240b38/artifacts
+end_time: 1711037258140
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8ef945cdc5648659d5916d7dd240b38
+run_name: magnificent-rat-201
+run_uuid: c8ef945cdc5648659d5916d7dd240b38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711037258127
+status: 4
+tags: []
+user_id: vscode

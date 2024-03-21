@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/6a239e82bc67453e9d18076510a13ae1/artifacts
+end_time: 1711046524430
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a239e82bc67453e9d18076510a13ae1
+run_name: masked-donkey-70
+run_uuid: 6a239e82bc67453e9d18076510a13ae1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711046523995
+status: 3
+tags: []
+user_id: vscode

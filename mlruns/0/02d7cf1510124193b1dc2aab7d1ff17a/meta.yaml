@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/02d7cf1510124193b1dc2aab7d1ff17a/artifacts
+end_time: 1711045081811
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 02d7cf1510124193b1dc2aab7d1ff17a
+run_name: enchanting-mouse-362
+run_uuid: 02d7cf1510124193b1dc2aab7d1ff17a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711045081451
+status: 3
+tags: []
+user_id: vscode

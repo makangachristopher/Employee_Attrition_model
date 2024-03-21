@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/d6f8bedc9c6c42cd912f9354ce91ec64/artifacts
+end_time: 1711045401599
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6f8bedc9c6c42cd912f9354ce91ec64
+run_name: bustling-grouse-832
+run_uuid: d6f8bedc9c6c42cd912f9354ce91ec64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711045401262
+status: 3
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/1f3c476fb2954bf6965bef1b1e8872e3/artifacts
+end_time: 1711046464526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1f3c476fb2954bf6965bef1b1e8872e3
+run_name: upbeat-auk-548
+run_uuid: 1f3c476fb2954bf6965bef1b1e8872e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711046464161
+status: 3
+tags: []
+user_id: vscode

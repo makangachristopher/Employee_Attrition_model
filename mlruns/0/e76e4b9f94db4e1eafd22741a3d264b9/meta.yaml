@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/e76e4b9f94db4e1eafd22741a3d264b9/artifacts
+end_time: 1711044648568
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e76e4b9f94db4e1eafd22741a3d264b9
+run_name: traveling-jay-938
+run_uuid: e76e4b9f94db4e1eafd22741a3d264b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711044648222
+status: 3
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/58b309e5efb641c8b5f3b3051ee240ba/artifacts
+end_time: 1711037331211
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58b309e5efb641c8b5f3b3051ee240ba
+run_name: youthful-shrimp-303
+run_uuid: 58b309e5efb641c8b5f3b3051ee240ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711037330873
+status: 3
+tags: []
+user_id: vscode

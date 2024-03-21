@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/75c58083d4bc4751884ee84f2ff20c36/artifacts
+end_time: 1711037328170
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75c58083d4bc4751884ee84f2ff20c36
+run_name: stately-rat-883
+run_uuid: 75c58083d4bc4751884ee84f2ff20c36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711037327840
+status: 3
+tags: []
+user_id: vscode

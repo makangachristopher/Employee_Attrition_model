@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/8deef5eb801b474c95aaedc2d551c4d4/artifacts
+end_time: 1711046298773
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8deef5eb801b474c95aaedc2d551c4d4
+run_name: powerful-shark-164
+run_uuid: 8deef5eb801b474c95aaedc2d551c4d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711046298342
+status: 3
+tags: []
+user_id: vscode
