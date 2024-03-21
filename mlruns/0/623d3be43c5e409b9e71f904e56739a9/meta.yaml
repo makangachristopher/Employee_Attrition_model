@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/623d3be43c5e409b9e71f904e56739a9/artifacts
+end_time: 1711034893680
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 623d3be43c5e409b9e71f904e56739a9
+run_name: valuable-hen-49
+run_uuid: 623d3be43c5e409b9e71f904e56739a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711034893663
+status: 3
+tags: []
+user_id: vscode

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/5cd037809bc84bf588adab4abcd1bf00/artifacts
+end_time: 1711032707582
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5cd037809bc84bf588adab4abcd1bf00
+run_name: magnificent-loon-903
+run_uuid: 5cd037809bc84bf588adab4abcd1bf00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711032707574
+status: 3
+tags: []
+user_id: vscode

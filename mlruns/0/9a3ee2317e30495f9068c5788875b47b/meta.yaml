@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Employee_Attrition_model/mlruns/0/9a3ee2317e30495f9068c5788875b47b/artifacts
+end_time: 1711032707552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a3ee2317e30495f9068c5788875b47b
+run_name: treasured-hare-779
+run_uuid: 9a3ee2317e30495f9068c5788875b47b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711032700207
+status: 3
+tags: []
+user_id: vscode
