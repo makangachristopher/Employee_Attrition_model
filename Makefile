@@ -1,14 +1,29 @@
-run-app:
-	python app.py
+# Define variables
+PYTHON = python
+PIP = pip
+MLFLOW = mlflow
+FLASK = flask
+FLAKE8 = flake8
 
-start-mlflow-server:
-	mlflow server --host 0.0.0.0 --port 5000
+# Target to install dependencies
+install:
+	$(PIP) install -r requirements.txt
 
-run-all:
-	@echo "Starting MLflow server..."
-	@mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///mlflow.db &
-	@echo "MLflow server started!"
-	@echo "Starting Flask app..."
-	@python app.py
+# Target to run tests
+test:
+	$(PYTHON) -m pytest tests/
 
-.PHONY: run-app start-mlflow-server run-all
+# Target to start MLflow server
+mlflow:
+	$(MLFLOW) ui
+
+# Target to run the Flask app
+run:
+	$(PYTHON) app.py
+
+# Target to lint the code
+lint:
+	$(FLAKE8) .
+
+# Target to run all tasks
+all: install test mlflow run lint

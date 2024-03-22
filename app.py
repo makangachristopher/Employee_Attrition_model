@@ -87,7 +87,7 @@ def predict():
 @app.route('/')
 def index():
     
-    return 'Thank you for visiting students grade prediction model'
+    return 'Thank you for visiting employee attrition prediction model'
 
 if __name__ == '__main__':
     app.run(port=5001, debug=True)
