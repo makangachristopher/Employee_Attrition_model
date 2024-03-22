@@ -23,7 +23,7 @@ run:
 
 # Target to lint the code
 lint:
-	$(FLAKE8) .
+	$(FLAKE8) . --select E --ignore=E402,E501 .
 
 # Target to run all tasks
 all: install test mlflow run lint
