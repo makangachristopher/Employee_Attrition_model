@@ -3,7 +3,7 @@ torch-geometric
 scikit-learn
 pandas
 imbalanced-learn
-mlflow
+mlflow==2.11.2
 numpy
 flask
 gunicorn
